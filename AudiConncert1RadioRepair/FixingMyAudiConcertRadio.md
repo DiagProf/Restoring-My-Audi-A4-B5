@@ -34,6 +34,7 @@ Disassembling the Control Panel removing the screws.
 ![Pic](./Pic/8.jpg)
 
 Now, remove the black cover on the back. And the circuit board from the front panel (the two screws in the middle do not need to be removed).
+
 ![Pic](./Pic/9.jpg)
 ![Pic](./Pic/10.jpg)
 ![Pic](./Pic/11.jpg)
