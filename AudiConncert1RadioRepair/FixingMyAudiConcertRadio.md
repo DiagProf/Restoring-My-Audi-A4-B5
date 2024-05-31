@@ -45,6 +45,7 @@ Now, carefully detach the display from the white carrier and ensure that the pol
 
 In my case, the conductive traces in the flex cable showed no breaks, so heating it up (not soldering, as it is an adhesive film) helped. I started by warming it to around 100°C. Then, I pressed it down, turned off the soldering iron with my other hand, and waited until everything was nearly cold. I repeated this process because the tip of the soldering iron isn't very large.
 ![Pic](./Pic/14.jpg)
+
 Now reassemble everything and finish
 ![Pic](./Pic/15.jpg)
 
