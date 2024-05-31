@@ -55,6 +55,7 @@ Now reassemble everything and finish
 - **Fixing Volume ControlIssue**: To fix the volume control issue, the microcontroller needs to be replaced.
 
 I first desoldered the microcontroller and then soldered in a socket.
+
 ![Pic](./Pic/20.jpg)
 ![Pic](./Pic/21.jpg)
 ![Pic](./Pic/22.jpg)
