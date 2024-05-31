@@ -56,9 +56,9 @@ Now reassemble everything and finish
 
 I first desoldered the microcontroller and then soldered in a socket.
 
-![Pic](./Pic/20.jpg)
-![Pic](./Pic/21.jpg)
-![Pic](./Pic/22.jpg)
-![Pic](./Pic/23.jpg)
+-![Pic](./Pic/20.jpg)
+-![Pic](./Pic/21.jpg)
+-![Pic](./Pic/22.jpg)
+-![Pic](./Pic/23.jpg)
 
 and now I have to see how I get the whole program cloned from the microcontroller.
