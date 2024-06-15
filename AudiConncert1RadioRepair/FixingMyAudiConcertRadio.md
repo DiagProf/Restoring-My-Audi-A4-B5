@@ -57,6 +57,9 @@ I first desoldered the microcontroller and then soldered in a socket.
 -<img src="./Pic/20.jpg" title="" alt="Pic" data-align="inline">
 -<img src="./Pic/21.jpg" title="" alt="Pic" data-align="inline">
 -<img src="./Pic/22.jpg" title="" alt="Pic" data-align="inline">
+
+I briefly pushed the old µcontroller into the socket to see if it still works as it did before I desoldered it. This way I can eliminate any soldering errors later if something doesn't work with the new µController.
+
 -<img src="./Pic/23.jpg" title="" alt="Pic" data-align="inline">
 
 With an adapter socket for the LabTool-48 I can read the entire memory. The EEPROM is part of this dump.
