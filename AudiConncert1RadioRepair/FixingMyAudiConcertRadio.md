@@ -10,7 +10,7 @@ My Audi Concert radio has two problems: the display shows as good as nothing , a
 
 [Link to Kovo Blog - Audi Concert/Chorus: Fixing Missing LCD Segments](https://kovo-blog.blogspot.com/2019/08/audi-concertchorus-fixing-missing-lcd.html)
 
-[Problem of Some AUDI Chorus and AUDI Concert]([Problem of some AUDI Chorus and AUDI Concert autoradio models, or "Delayed-Action Mine" from Blaupunkt Company](https://web.archive.org/web/20071017195907/http://erta.ru/review/chorus-problem_eng.shtml)
+[Problem of Some AUDI Chorus and AUDI Concert](https://web.archive.org/web/20071017195907/http://erta.ru/review/chorus-problem_eng.shtml)
 
 ## I've come to the following conclusions:
 
@@ -60,16 +60,16 @@ I first desoldered the microcontroller and then soldered in a socket.
 
 I briefly pushed the old µcontroller into the socket to see if it still works as it did before I desoldered it. This way I can eliminate any soldering errors later if something doesn't work with the new µController.
 
--<img src="./Pic/23.jpg" title="" alt="Pic" data-align="inline">
+<img src="./Pic/23.jpg" title="" alt="Pic" data-align="inline">
 
 With an adapter socket for the LabTool-48 I can read the entire memory. The EEPROM is part of this dump.
 
--<img src="./Pic/24.jpg" title="" alt="Pic" data-align="inline">
+<img src="./Pic/24.jpg" title="" alt="Pic" data-align="inline">
 
 Before writing to the new µController, I change some cells (in this case the EEPROM cells) so that I never have to enter the radio code again.
 
--<img src="./Pic/25_CompareDumps.jpg" title="" alt="Pic" data-align="inline">
+<img src="./Pic/25_CompareDumps.jpg" title="" alt="Pic" data-align="inline">
 
 Now new µController (MC68HC705B32CFN) back in the Plcc-52 socket.
 
--<img src="./Pic/26_MC68HC705B32CFN.jpg" title="" alt="Pic" data-align="inline">
+<img src="./Pic/26_MC68HC705B32CFN.jpg" title="" alt="Pic" data-align="inline">
