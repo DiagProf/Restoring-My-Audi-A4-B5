@@ -1,6 +1,6 @@
 # Fixing My Audi Concert Radio
 
-![Description of Image](./Pic/1.jpg)
+<img src="./Pic/1.jpg" title="" alt="Description of Image" data-align="left">
 
 My Audi Concert radio has two problems: the display shows as good as nothing , and the volume control turns up to full with the slightest touch. After finding some excellent resources online (which I don't want to withhold from you).
 
@@ -9,6 +9,8 @@ My Audi Concert radio has two problems: the display shows as good as nothing , a
 [Link to TT Owners Club Forum - Pixel Errors in Radio Display](https://www.tt-owners-club.net/forum/index.php?thread/43083-pixelfehler-im-radiodisplay/)
 
 [Link to Kovo Blog - Audi Concert/Chorus: Fixing Missing LCD Segments](https://kovo-blog.blogspot.com/2019/08/audi-concertchorus-fixing-missing-lcd.html)
+
+[Problem of Some AUDI Chorus and AUDI Concert]([Problem of some AUDI Chorus and AUDI Concert autoradio models, or "Delayed-Action Mine" from Blaupunkt Company](https://web.archive.org/web/20071017195907/http://erta.ru/review/chorus-problem_eng.shtml)
 
 ## I've come to the following conclusions:
 
@@ -22,22 +24,21 @@ My Audi Concert radio has two problems: the display shows as good as nothing , a
 
 - **Fixing Display Issue**: Remove the control panel and open it.
 
-![Pic](./Pic/2.jpg) 
+<img src="./Pic/2.jpg" title="" alt="Pic" data-align="left"> 
 ![Pic](./Pic/3.jpg)
 ![Pic](./Pic/4.jpg)
-![Pic](./Pic/5.jpg)
+<img src="./Pic/5.jpg" title="" alt="Pic" data-align="left">
 
 Disassembling the Control Panel removing the screws.
 
-![Pic](./Pic/6.jpg)
-![Pic](./Pic/7.jpg)
-![Pic](./Pic/8.jpg)
+<img src="./Pic/6.jpg" title="" alt="Pic" data-align="left">
+<img src="./Pic/7.jpg" title="" alt="Pic" data-align="left">
+<img src="./Pic/8.jpg" title="" alt="Pic" data-align="left">
 
 Now, remove the black cover on the back. And the circuit board from the front panel (the two screws in the middle do not need to be removed).
 
-![Pic](./Pic/9.jpg)
-![Pic](./Pic/10.jpg)
-![Pic](./Pic/11.jpg)
+">
+<img title="" src="./Pic/11.jpg" alt="Pic" data-align="left">
 ![Pic](./Pic/12.jpg)
 
 Now, carefully detach the display from the white carrier and ensure that the polarizing film underneath is not lost.
@@ -49,16 +50,23 @@ In my case, the conductive traces in the flex cable showed no breaks, so heating
 Now reassemble everything and finish
 ![Pic](./Pic/15.jpg)
 
-
-
-
 - **Fixing Volume ControlIssue**: To fix the volume control issue, the microcontroller needs to be replaced.
 
 I first desoldered the microcontroller and then soldered in a socket.
 
--![Pic](./Pic/20.jpg)
--![Pic](./Pic/21.jpg)
--![Pic](./Pic/22.jpg)
--![Pic](./Pic/23.jpg)
+-<img src="./Pic/20.jpg" title="" alt="Pic" data-align="inline">
+-<img src="./Pic/21.jpg" title="" alt="Pic" data-align="inline">
+-<img src="./Pic/22.jpg" title="" alt="Pic" data-align="inline">
+-<img src="./Pic/23.jpg" title="" alt="Pic" data-align="inline">
 
-and now I have to see how I get the whole program cloned from the microcontroller.
+With an adapter socket for the LabTool-48 I can read the entire memory. The EEPROM is part of this dump.With an adapter socket for the LabTool-48 I can read the entire memory. The EEPROM is part of this dump.
+
+-<img src="./Pic/24.jpg" title="" alt="Pic" data-align="inline">
+
+Before writing to the new µController, I change some cells (in this case the EEPROM cells) so that I never have to enter the radio code again.
+
+-<img src="./Pic/25_CompareDumps.jpg" title="" alt="Pic" data-align="inline">
+
+Now new µController (MC68HC705B32CFN) back in the Plcc-52 socket.
+
+-<img src="./Pic/26_MC68HC705B32CFN.jpg" title="" alt="Pic" data-align="inline">
