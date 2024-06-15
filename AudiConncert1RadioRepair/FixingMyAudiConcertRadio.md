@@ -59,7 +59,7 @@ I first desoldered the microcontroller and then soldered in a socket.
 -<img src="./Pic/22.jpg" title="" alt="Pic" data-align="inline">
 -<img src="./Pic/23.jpg" title="" alt="Pic" data-align="inline">
 
-With an adapter socket for the LabTool-48 I can read the entire memory. The EEPROM is part of this dump.With an adapter socket for the LabTool-48 I can read the entire memory. The EEPROM is part of this dump.
+With an adapter socket for the LabTool-48 I can read the entire memory. The EEPROM is part of this dump.
 
 -<img src="./Pic/24.jpg" title="" alt="Pic" data-align="inline">
 
